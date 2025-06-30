@@ -85,4 +85,4 @@ pip install -r requirements.txt
 
 ## References
 <a name="references"></a>
-[1] S. J. D. Prince, Understanding Deep Learning. The MIT Press, 2023. [webiste to book](https://git-scm.com/](https://udlbook.github.io/udlbook/)
+[1] S. J. D. Prince, Understanding Deep Learning. The MIT Press, 2023. [website to book](https://udlbook.github.io/udlbook/)
