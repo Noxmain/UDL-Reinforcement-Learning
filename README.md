@@ -1,8 +1,17 @@
 # Reinforcemnt Learning (based on the book Understanding Deep Learning by Simon J.D. Prince[[1]](#references))
-This repository is based on a group project in the course Understanding Deep Learning at University of Osnabrück.
+This repository contains a project for the seminar 'Understanding Deel Learning' by Lukas Niehaus in the summer term 2025 at the University of Osnabrück. 
 
 ## Overview
-Reinforcement Learning is a 
+Reinforcement Learning is a type of Machine Learning where and agent learns to make decisions by interacting with an environment and recieving rewards for good behaviour and penalties for bad ones.
+
+Chess therefore is a great option for reinforcement learning, because 
+- it has clear rules and goals
+- every move affects future possibilities
+- it allows the agent to explore, learn from mistakes, and improve over time.
+  
+The aim of this project is to develop reinforcement learning agents for bullet chess, where each player has only 60 seconds total to complete the game. Unlike traditional chess agents that focus solely on move quality, our agents are designed to also manage time pressure, learning to make decisions that are not only strong but also fast when required.
+
+We are going to use DQN and agent-critic policies for our agent.
 
 ## QuickStart
 To start of quickly and be able to execute the code properly, follow this guide.
