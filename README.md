@@ -1,5 +1,5 @@
 # Reinforcemnt Learning (based on the book Understanding Deep Learning by Simon J.D. Prince[[1]](#references))
-This repository contains a project for the seminar 'Understanding Deel Learning' by Lukas Niehaus in the summer term 2025 at the University of Osnabrück. 
+This repository contains a project for the seminar 'Understanding Deep Learning' by Lukas Niehaus in the summer term 2025 at the University of Osnabrück. 
 
 ## Overview
 Reinforcement Learning is a type of Machine Learning where and agent learns to make decisions by interacting with an environment and recieving rewards for good behaviour and penalties for bad ones.
