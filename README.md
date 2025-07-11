@@ -15,8 +15,6 @@ We are going to use DQN and agent-critic policies for our agents. Since this rep
 
 ## QuickStart
 To start of quickly and be able to execute the code properly, follow this guide.
-For fastest usage, go to this [jupyter notebook](https://colab.research.google.com/drive/1ae7qFCyGvhH7TT2yE0qTrL9GH5_HAyJ9?usp=sharing) in google collab.
-
 
 Fist we need to install [Git](#git) to be able to clone this repository.
 Then decide, whether you want to set up your virtual environment with [venv](#venv) (built into Python) or [Conda](#conda) (a package and environment manager from Anaconda/Miniconda).
@@ -89,7 +87,6 @@ conda activate venv
 pip install -r requirements.txt
 ```
 
-## How to use this repository
 ### Structure of this repository
 'agent_dqn.py' - This file contains all relevant functions and definitions for our agent that uses Deep Q-networks to learn. ([open](agent_dqn.py))
 
