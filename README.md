@@ -1,4 +1,4 @@
-# Reinforcemnt Learning (based on the book Understanding Deep Learning by Simon J.D. Prince[[1]](#references))
+# Reinforcement Learning (based on the book Understanding Deep Learning by Simon J.D. Prince[[1]](#references))
 This repository contains a project for the seminar 'Understanding Deep Learning' by Lukas Niehaus in the summer term 2025 at the University of Osnabrück. 
 
 ## Overview
