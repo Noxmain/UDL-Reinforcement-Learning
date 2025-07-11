@@ -11,7 +11,7 @@ Chess therefore is a great option for reinforcement learning, because
   
 The aim of this project is to develop reinforcement learning agents for bullet chess, where each player has only 60 seconds total to complete the game. Unlike traditional chess agents that focus solely on move quality, our agents are designed to also manage time pressure, learning to make decisions that are not only strong but also fast when required.
 
-We are going to use DQN and agent-critic policies for our agents.
+We are going to use DQN and agent-critic policies for our agents. Since this repository is still being worked on, there's only a trained DQN agent so far, that you could play against. We are currently improving said game and working on training the agent-critic one. 
 
 ## QuickStart
 To start of quickly and be able to execute the code properly, follow this guide.
@@ -90,7 +90,20 @@ pip install -r requirements.txt
 ```
 
 ## How to use this repository
+### Structure of this repository
+'agent_dqn.py' - This file contains all relevant functions and definitions for our agent that uses Deep Q-networks to learn. ([open](agent_dqn.py))
 
+'agent_policy_value.py' - This file contains all relevant functions and definitions for our agents policy. ([open](agent_policy_value.py))
+
+'chess_dqn_model.pth' - This file contains the trained DQN-agent. ([open](chess_dqn_model.pth))
+
+'environment.py' - This file contains all relevant functions and definitions for the environment our agent acts in. ([open](environment.py))
+
+'main.ipynb' - This notebook contains the script for initializing, training and finally saving the DQN model. We will add the agent-critic model here as well. ([open](main.ipynb))
+
+'play.ipynb' - This notebooks let's you play against our agent in Bullet Chess. You'll enter moves in UCI-format. Have fun! ([open](play.ipynb))
+
+'utils.py' - This file contains useful functions that might be used in the future. ([open](utils.py))
 
 ## References
 <a name="references"></a>
