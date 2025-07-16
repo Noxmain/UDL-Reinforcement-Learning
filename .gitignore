@@ -1,0 +1,11 @@
+# Environment
+venv
+
+# Cache
+__pycache__/
+.idea/
+.vscode/
+.DS_Store
+
+# Logs
+*.log
